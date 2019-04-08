@@ -17,7 +17,6 @@ class Info extends Component {
                     <Header />
                     <Body />
                     <Footer />
-                    <FAQs />
                 </Container>
 
             </div>
@@ -106,6 +105,7 @@ class Footer extends Component {
                         </a>
                     </Col>
                 </Row>
+                <FAQs />
                 <a href="mailto:ediblecampus@gmai.com">
                     <Button className="mt-3 green">
                         <FontAwesomeIcon icon="envelope"></FontAwesomeIcon> Contact Us
