@@ -138,12 +138,15 @@ class GoogleMap extends Component {
                     isLoaded: true,
                 })
                 this.setState({ beds: beds });
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
 
     static defaultProps = {
         center: {
-            lat: 35.910,
+            lat: 35.912,
             lng: -79.047
         },
         zoom: 15

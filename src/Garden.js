@@ -70,7 +70,10 @@ class TitleBar extends Component {
                     isLoaded: true,
                     bed_name: json.BedName
                 })
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -112,7 +115,10 @@ class Picture extends Component {
                     isLoaded: true,
                     thumbnail: json[0].PicURL
                 })
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -151,7 +157,10 @@ class PlantsCount extends Component {
                     isLoaded: true,
                     plant_count: json.length
                 })
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -211,7 +220,10 @@ class RecipesCount extends Component {
                     isLoaded: true,
                 })
                 this.setState({ plants: plants });
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -297,6 +309,9 @@ class Distance extends Component {
                         long: json.BedLongitude
                     }
                 })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
             });
     }
 
@@ -345,7 +360,10 @@ class Description extends Component {
                     isLoaded: true,
                     description: json.BedDescription
                 })
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -380,7 +398,10 @@ class PlantCircle extends Component {
                 this.setState({
                     photo: json.PicURL,
                 })
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         return (
@@ -427,7 +448,10 @@ class MorePlants extends Component {
                     isLoaded: true,
                 })
                 this.setState({ plants: plants });
-            })
+            }).catch((error) => {
+                console.log("Can't pull from API :(")
+                console.error(error);
+            });
     }
     render() {
         for (let i = 0; i < 4; i++) {
