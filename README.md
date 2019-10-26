@@ -7,9 +7,10 @@ This project is an interactive UI that maps each garden in google maps and conta
 Coverage from UNC Chapel Hill website: https://www.unc.edu/posts/2019/07/19/new-edible-campus-interactive-map-guides-foragers-to-whats-in-season/
 
 ## How to use 
- 1. clone the repo and install dependencies 
+ 0. Download node.js https://nodejs.org/en/
+ 1. clone the repo in a new folder and install dependencies 
     ``` 
-    git clone https://github.com/joshjiang/edible-gardens-map.git 
+    git clone https://github.com/joshjiang/edible-gardens-map.git .
     npm install
     ```
  2. Ask Dr. Pozefsky for the access to the gitlabs repo with the API credentials for https://ediblecampusapi-dept-botanicalgarden.cloudapps.unc.edu/ and add them to a REACT_APP_EDIBLE_GARDENS_API_CREDENTIALS environment variable in your shell or deployment configuration
