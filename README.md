@@ -8,8 +8,12 @@ Coverage from UNC Chapel Hill website: https://www.unc.edu/posts/2019/07/19/new-
 
 ## How to use 
  1. clone the repo and install dependencies 
-    ``` git clone https://github.com/joshjiang/edible-gardens-map.git 
+    ``` 
+    git clone https://github.com/joshjiang/edible-gardens-map.git 
     npm install
+    ```
  2. Ask Dr. Pozefsky for the access to the gitlabs repo with the API credentials for https://ediblecampusapi-dept-botanicalgarden.cloudapps.unc.edu/ and add them to a REACT_APP_EDIBLE_GARDENS_API_CREDENTIALS environment variable in your shell or deployment configuration
  3. run the dev server 
-   ``` npm start
+   ``` 
+   npm start
+   ```
