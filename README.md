@@ -1,4 +1,4 @@
-#Edible Gardens Mapp
+# Edible Gardens Mapp
 
 Edible Campus is a program of the North Carolina Botanical Garden that creates working landscapes across the UNC Chapel Hill campus to facilitate student engagement in topics of food and agriculture sustainability.
 
@@ -6,7 +6,7 @@ This project is an interactive UI that maps each garden in google maps and conta
 
 Coverage from UNC Chapel Hill website: https://www.unc.edu/posts/2019/07/19/new-edible-campus-interactive-map-guides-foragers-to-whats-in-season/
 
-##How to use 
+## How to use 
  1. clone the repo and install dependencies 
     ``` git clone https://github.com/joshjiang/edible-gardens-map.git 
     npm install```
